@@ -4,8 +4,8 @@ console.log(a+b);*/
 
 //calculate area of circle;//
 
-/*let A=Math.PI*Math.pow(7,2); 
-console.log(A);*/
+let A=Math.pow(7,2); 
+console.log(A);
 
 /*calculate area of traingle;*/
 
@@ -87,7 +87,7 @@ console.log(subject);*/
 
 //  num=10;
 //  if
-function print(){
+/*function print(){
     var input = document.getElementById("input");
     console.log(input.value);
 
@@ -96,6 +96,52 @@ function print(){
     document.getElementsByTagName("BODY")[0].appendChild(output);
 
     input.value = "";
-}
+}*/
+
+let a=Math.round(-4.4);
+console.log(a);
+
+let b=Math.ceil(-6.9);
+console.log(b);
+
+let c=Math.floor(-6.7);
+console.log(c);
+
+let d=Math.trunc(-3.9);
+console.log(d);
+
+let e=Math.sign(-6.8);
+console.log(e);
+
+let f=Math.pow(2,3);
+console.log(f);
+
+let g=Math.sqrt(6.8);
+console.log(g);
+
+let h=Math.abs(9);
+console.log(h);
+
+let i=Math.sin(35*Math.PI/180);
+console.log(i);
+
+let j=Math.cos(50*Math.PI/180);
+console.log(j);
+
+let k=Math.max(35,80,80,70,76,87,09,98,87,-0.9);
+console.log(k);
+
+let l=Math.random(6);
+console.log(i);
+
+
+
+
+
+
+
+
+
+
 
  
