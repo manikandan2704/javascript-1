@@ -4,8 +4,7 @@ console.log(a+b);*/
 
 //calculate area of circle;//
 
-let A=Math.pow(7,2); 
-console.log(A);
+
 
 /*calculate area of traingle;*/
 
@@ -87,61 +86,231 @@ console.log(subject);*/
 
 //  num=10;
 //  if
-/*function print(){
-    var input = document.getElementById("input");
-    console.log(input.value);
 
-    var output = document.createElement("P");
-    output.innerText = input.value;
-    document.getElementsByTagName("BODY")[0].appendChild(output);
+ //var p = document.getElementById("p");
+ //console.log(p);
+ /*let a={
+	 name:"mani",
+	 age:20,
+	 degree:"maths",
+ }
+ a= function(){
+	 for(i=0;i<length.a;i++){
+		 console.log(i)
+	 }
+ }*/
+ 
+ 
+//function print(){
+   // var input = document.getElementById("input");
+    // console.log(input.value);
 
-    input.value = "";
+    // var output = document.createElement("P");
+    // output.innerText = input.value;
+    // document.getElementsByTagName("BODY")[0].appendChild(output);
+
+    /* input.value = "";
+
+    reverseString(input.value);
+
+    
+    
+}*/
+//let a=Math.round(3.2);
+// console.log(a);//
+
+/*moreVolwels();
+function moreVolwels(){
+    var input = ["manikandan","sakthiganesh"];
+    var vowelsCount = [0, 0, 0];
+    var vowels = ["a", "e", "i", "o", "u"];
+
+    for(let i=0; i<input.length; i++){
+        for(let j=0; j<input[i].length; j++){
+            if(vowels.includes(input[i].charAt(j))){
+                vowelsCount[i] += 1;
+            }
+        }
+    }
+
+    var index=0;
+    var f=vowelsCount[0];
+    for(let i=1; i<vowelsCount.length; i++){
+        if(f<vowelsCount[i]){
+            f=vowelsCount[i];
+            index = i;
+        }
+    }
+    console.log(input[index]);
+
 }*/
 
-let a=Math.round(-4.4);
-console.log(a);
-
-let b=Math.ceil(-6.9);
-console.log(b);
-
-let c=Math.floor(-6.7);
-console.log(c);
-
-let d=Math.trunc(-3.9);
-console.log(d);
-
-let e=Math.sign(-6.8);
-console.log(e);
-
-let f=Math.pow(2,3);
-console.log(f);
-
-let g=Math.sqrt(6.8);
-console.log(g);
-
-let h=Math.abs(9);
-console.log(h);
-
-let i=Math.sin(35*Math.PI/180);
-console.log(i);
-
-let j=Math.cos(50*Math.PI/180);
-console.log(j);
-
-let k=Math.max(35,80,80,70,76,87,09,98,87,-0.9);
-console.log(k);
-
-let l=Math.random(6);
-console.log(i);
 
 
 
+function reverseString(input){
+     var inputArr = ["one", "two", "three", "four", "five"];
+     var strValue = inputArr[input-1];
+     var output="";
+     for(let i=strValue.length-1; i>=0; i--){
+        output += strValue.charAt(i);
+     }
+     console.log(output);
+}
 
 
 
-
-
-
-
-
+/*let date=new Date();
+date.setDate(11);
+console.log(date);
+console.log(date.getDate());
+*/
+/*let u=new Date();
+ n=u.toLocaleString();
+ console.log(u.toLocaleString());
  
+ let x=new Date();
+ y=x.toDateString();
+ console.log(x.toDateString());
+ 
+ let m=new Date();
+ t=m.toString();
+ console.log(m.toString());
+ 
+ let l=new Date();
+ o=l.toISOString();
+ console.log(l.toISOString());*/
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ /*input=parseInt(prompt('enter number'));
+
+ if(input){
+     console.log("number");8
+ }
+ else{
+     console.log("string");
+ }*/
+
+ var num = "100";
+
+ if(typeof num == 'number'){
+	console.log(num + " is a number");
+ }else{
+	console.log(num + " is not a number");
+ }
+
+
+/*
+ var mani ="-12";
+ if(mani>0){
+    console.log("it is positive")
+ }
+ else{
+    console.log("it is not positive")
+ }
+ 
+
+
+
+ var m=new Date();
+ v= m.getMonth();
+ if(v>5){
+    console.log("good morning")
+ }
+ else{
+    console.log("good evening")
+ }
+
+
+
+ let t=11;
+ if(t % 2==0 ){
+    console.log("it is even")
+ }
+ else{
+    console.log("it is odd")
+ }
+
+
+ /*let i=9000;
+ if(i<10000&&){
+    console.log("you are basic")
+ }else if(i<30000 && i>10000){
+    console.log("you are medium")
+ }
+ else{
+    console.log("you are advanced")
+ }
+*/
+
+/*
+let age =prompt("enter a number");
+let gender =prompt("enter a string");
+
+if( age > 25){    
+
+}if(gender == 'male'){
+    console.log("you are eligible")
+}else if(age )
+
+x=parseInt(prompt('enter number'));
+if(x>25 &&male){
+    console.log("you are eligible")
+}
+else{
+    console.log("you are not eligible")
+}*/
+
+
+
+let a=parseInt(prompt("first"));
+let b=parseInt(prompt("second"));
+let c=parseInt(prompt("third"));
+if((a>=b)&&(a>=c)){
+    if(b>=c){
+        console.log("a is greater than all");
+        console.log("b is greater than c");
+        console.log("c is smaller than all");
+    }else{
+        console.log("a is greater than all");
+        console.log("c is greater than b");
+        console.log("b is smaller than all");
+    }
+}else if((b>=a)&&(b>=c)){
+    if(a>=c){
+        console.log("b is greater than all");
+        console.log("a is greater than c");
+        console.log("c is smaller than all");
+    }else{
+        console.log("b is greater than all");
+        console.log("c is greater than a");
+        console.log("a is smaller than all");
+    }
+}else if((c>=a)&&(c>=b)){
+    if(b>=a){
+    console.log("c is greater than all");
+        console.log("b is greater than a");
+        console.log("a is smaller than all");
+    }else{
+        console.log("c is greater than all");
+        console.log("a is greater than b");
+        console.log("b is smaller than all");
+    }
+}else{
+    console.log("give number");
+}
+
+
+
+
+
+
+
+

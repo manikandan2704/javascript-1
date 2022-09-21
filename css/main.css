@@ -1,0 +1,120 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    margin: 0 auto;
+    position: relative;
+    background-color: #04befe;
+}
+.container .info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 40%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.3);
+}
+.info h1{
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: large;
+}
+input[type="email"],
+input[type="password"]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    background: none;
+    margin: 0.9rem 2rem;
+    font-size: 1rem;
+}
+label{
+    padding-left: 31px;
+}
+span{
+    margin: 0 2rem;
+    color: blue;
+    cursor: pointer;
+}
+button {
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    padding-top: 30px;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: #fff;
+    background: linear-gradient( to right,#25aae1,#4481eb,#04befe,#3f86ed);
+
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top:0.5rem;
+    padding-top: 30px;
+    padding-left: 3px;
+}
+.icons .icofont-facebook{
+    border-radius: 50%;
+    background-color: #5d75ab;
+    color: #fff;
+    padding: 0.5rem;
+}
+.icons .icofont-twitter{
+    border-radius: 50%;
+    background-color: #1da1f2;
+    color: white;
+    padding: 0.5rem;
+}
+.icons .icofont-google-plus{
+    border-radius: 50%;
+    background-color: #ee5645;
+    color: #fff;
+    padding: 0.5rem;*/
+
+
+
+*{
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+button{
+padding:20px;
+border: none;
+border-radius: 20px;
+outline: none;
+cursor: pointer;
+background-color: skyblue;
+color: maroon;
+background-color: rgba(0,139, 139, 0,3);
+box-shadow: darkred 0px 7px 20px,darkred 0px 2px 2px;
+}
+
+button:hover{
+
+    background-color: rgba(0,139, 139, );
+}
