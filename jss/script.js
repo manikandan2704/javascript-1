@@ -268,8 +268,6 @@ else{
     console.log("you are not eligible")
 }*/
 
-
-
 let a=parseInt(prompt("first"));
 let b=parseInt(prompt("second"));
 let c=parseInt(prompt("third"));
@@ -314,3 +312,15 @@ if((a>=b)&&(a>=c)){
 
 
 
+/*let a=15;
+let b=12;
+let c=14;
+ if(a>b&&a>c){
+    console.log("a is great")
+ }else if(b>a&&b>c){
+    console .log("b is great")
+ }
+ else{
+    console.log(" c is great")
+ }
+*/
